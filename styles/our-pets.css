@@ -1,0 +1,458 @@
+/* font-family: 'Libre Baskerville', serif;
+   font-family: 'Roboto', sans-serif; */
+body {
+  margin: 0 auto;
+  font-size: 15px;
+  width: 1280px;
+  background: #f6f6f6;
+}
+
+.wrapper-1200 {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  background: white;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.display-none-sm-burger {
+  display: none;
+}
+
+.header-content {
+  width: 1200px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  color: #545454;
+}
+
+.font-size-32 {
+  font-size: 32px;
+}
+
+.font-size-13 {
+  font-size: 13.6px;
+}
+
+.pad-top-10 {
+  padding-top: 10px;
+}
+
+.letter-spacing-006 {
+  letter-spacing: 0.06em;
+}
+
+.letter-spacing-01 {
+  letter-spacing: 0.1em;
+}
+
+.font-family-roboto {
+  font-family: "Roboto", sans-serif;
+}
+
+.font-family-libre-baskerville {
+  font-family: "Libre Baskerville", serif;
+}
+
+ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: "Roboto", sans-serif;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav-link {
+  color: #545454;
+}
+
+h2 {
+  font-size: 35px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+  font-family: "Libre Baskerville", serif;
+  color: #545454;
+  width: 500px;
+  font-style: normal;
+  font-weight: normal;
+  margin: 0;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.margin-top-30 {
+  margin-top: 30px;
+}
+
+.arrow {
+  border-radius: 50%;
+  border: 3px solid #fddcc4;
+  height: 50px;
+  width: 50px;
+  font-family: "Libre Baskerville", serif;
+  font-weight: bold;
+  font-size: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  outline: none;
+  cursor: pointer;
+  background: none;
+}
+
+.arrow-disabled {
+  color: #CDCDCD;
+  border: 3px solid #CDCDCD;
+  cursor: default;
+  border-radius: 50%;
+  height: 50px;
+  font-size: 20px;
+  width: 50px;
+  font-family: "Libre Baskerville", serif;
+  font-weight: bold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  outline: none;
+  background: none;
+}
+
+.font-size-15 {
+  font-size: 15px;
+}
+
+.arrow:hover {
+  background: #fddcc4;
+}
+
+.navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 40px;
+}
+
+.margin-right-40 {
+  margin-right: 40px;
+}
+
+.margin-right-20 {
+  margin-right: 20px;
+}
+
+.nav-link:hover {
+  border-bottom: 3px solid #f1cdb3;
+}
+
+.nav-link-active {
+  border-bottom: 3px solid #f1cdb3;
+  color: #545454;
+}
+
+.pad-right-35 {
+  padding-right: 35px;
+}
+
+.our-friends {
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+
+.our-friends-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card {
+  width: 270px;
+  background: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 30px;
+  border-radius: 9px;
+  overflow: hidden;
+}
+
+.card:hover {
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.pets-name {
+  font-family: "Libre Baskerville", serif;
+  color: #545454;
+  letter-spacing: 0.06em;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: normal;
+  padding-top: 30px;
+}
+
+.btn {
+  width: 207px;
+  height: 52px;
+  letter-spacing: 0.06em;
+  font-size: 17px;
+  font-family: "Libre Baskerville", serif;
+  background: #f1cdb3;
+  border-radius: 100px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-card {
+  width: 187px;
+  background: none;
+  border: 2px solid #fddcc4;
+  margin-top: 30px;
+}
+
+.btn-card:hover {
+  background: #fddcc4;
+}
+
+.cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+footer {
+  background: radial-gradient(100% 215.42% at 0% 0%, #5b483a 0%, #262425 100%), #211f20;
+}
+
+.footer-h2 {
+  color: white;
+  width: 350px;
+  padding-bottom: 40px;
+}
+
+.contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #f1cdb3;
+  letter-spacing: 0.06em;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 115%;
+  font-family: "Libre Baskerville", serif;
+}
+
+.pad-right-20 {
+  padding-right: 20px;
+}
+
+.pad-bottom-40 {
+  padding-bottom: 40px;
+}
+
+.footer-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.contacts-width {
+  width: 400px;
+}
+
+.pad-top-40 {
+  padding-top: 40px;
+}
+
+.pad-top-56 {
+  padding-top: 56px;
+}
+
+@media (max-width: 1280px) {
+  body {
+    width: 768px;
+    margin: 0 auto;
+  }
+  .wrapper-1200 {
+    max-width: 708px;
+    margin: 0 auto;
+  }
+  .margin-right-0 {
+    margin-right: 0px;
+  }
+  .cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .header-content {
+    width: 708px;
+    padding-top: 30px;
+  }
+  .footer-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    padding-top: 30px;
+  }
+  .footer-block-width {
+    width: 345px;
+  }
+  .pad-top-40 {
+    padding-top: 69px;
+  }
+  .contacts-width {
+    width: auto;
+  }
+  .display-none-card {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  body {
+    width: 320px;
+    margin: 0 auto;
+  }
+  .margin-right-0-sm {
+    margin-right: 0;
+  }
+  .display-none-card-sm {
+    display: none;
+  }
+  h2 {
+    font-size: 25px;
+    text-align: center;
+    width: 300px;
+    letter-spacing: 0.06em;
+  }
+  .display-none-sm-burger {
+    display: block;
+  }
+  .wrapper-1200 {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  .display-none-sm {
+    display: block;
+  }
+  nav {
+    display: none;
+  }
+  .header-content {
+    width: 257px;
+  }
+  .pad-top-343 {
+    padding-top: 110px;
+  }
+  h1 {
+    font-size: 25px;
+    text-align: center;
+    width: 300px;
+    letter-spacing: 0.06em;
+  }
+  .pad-top-56 {
+    padding-top: 29px;
+  }
+  .footer-content {
+    padding-top: 0;
+  }
+  .footer-block-width {
+    width: 300px;
+  }
+  .footer-h2 {
+    width: 300px;
+  }
+  .footer-puppy-size-sm {
+    width: 260px;
+    height: 269px;
+  }
+  .pad-top-40 {
+    padding-top: 40px;
+  }
+  .margin-right-20 {
+    margin-right: 10px;
+  }
+  .our-friends {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
+/*# sourceMappingURL=our-pets.css.map */
